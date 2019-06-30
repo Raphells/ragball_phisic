@@ -1,6 +1,7 @@
 
 
 ---------------physic.py--------------
+
 First attempt to gravity implementation 
 
 Working gravity witch bouncing ball 
