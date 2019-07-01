@@ -13,7 +13,7 @@ Working gravity witch bouncing ball
 
 second attempt to gravity implementation
 
-ball movement int 2D with gravity 
+ball movement in 2D with gravity 
 
 
 			TO DO
