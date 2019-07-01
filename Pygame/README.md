@@ -6,6 +6,18 @@ First attempt to gravity implementation
 
 Working gravity witch bouncing ball 
 
---- issues to resolve
 
-after spawn more ball prformance drop down // multithreading 
+----------------------------------------
+
+---------crash_envaierment.py-----------
+
+second attempt to gravity implementation
+
+ball movement int 2D with gravity 
+
+
+			TO DO
+
+- draw direction to move
+- colision
+----------------------------------------
