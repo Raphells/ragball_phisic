@@ -9,7 +9,7 @@ Working gravity witch bouncing ball
 
 ----------------------------------------
 
----------crash_envaierment.py-----------
+---------crash_environment.py-----------
 
 Second attempt to gravity implementation
 
