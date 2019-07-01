@@ -11,13 +11,13 @@ Working gravity witch bouncing ball
 
 ---------crash_envaierment.py-----------
 
-second attempt to gravity implementation
+Second attempt to gravity implementation
 
-ball movement in 2D with gravity 
+Ball movement in 2D with gravity 
 
 
 			TO DO
 
-- draw direction to move
-- colision
+- Draw direction to move
+- Collision
 ----------------------------------------
