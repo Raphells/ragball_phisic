@@ -20,7 +20,7 @@ gren = (0,255,0)
 fps = 60
 elasticity = 0.70
 gravity = 9.81/fps*2   #9,81
-
+balls_obj = []
 size = 20
 
 
@@ -31,8 +31,6 @@ class Ball():
     def __init__(self):
         self.x = 100
         self.y = 50
-        self.force_x = 0
-        self.force_y = 0
         self.speed = 0
         self.angle = 1      
         
@@ -51,7 +49,7 @@ def move ():
         
            ball.speed += ball.angle * gravity
            ball.y += int(ball.angle *ball.speed)
-           print(ball.y,ball.speed,ball.angle)
+           #print(ball.y,ball.speed,ball.angle) that line lag a lot XD
 
 
 def bounce():
@@ -63,17 +61,18 @@ def bounce():
             
         if ball.speed < 0 :
             ball.angle = 1
-        if ball.y == hight-21 and ball.speed > -0.2 and ball.speed < 0.2 :
+        if ball.y == hight-21 and ball.speed > -0.36 and ball.speed < 0.2 :
            balls_obj.remove(ball)
 
 
 
 
-balls_obj = []
+
 
 
 while running:
-    ball = Ball()
+    
+    
     screen.fill(white)
     
     event = pygame.event.poll()
@@ -81,6 +80,7 @@ while running:
     if event.type == pygame.QUIT:
          running = 0
     if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+        ball = Ball()
         ball.x,ball.y = event.pos
         balls_obj.append(ball)
         
